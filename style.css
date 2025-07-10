@@ -41,6 +41,7 @@ body {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
+  margin-bottom: 1.5rem;
 }
 .profile-info > .name {
   font-size: 1.4rem;
@@ -51,14 +52,11 @@ body {
   font-size: 0.835rem;
   font-weight: 600;
   color: var(--Green);
+  margin-bottom: 1.5rem;
 }
 .passion {
   font-size: 0.875rem;
   font-weight: 400;
-}
-.profile-img,
-.address,
-.passion {
   margin-bottom: 1.5rem;
 }
 .social-link {
