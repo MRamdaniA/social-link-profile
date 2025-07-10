@@ -33,18 +33,14 @@ body {
   align-items: center;
   background-color: var(--Grey800);
   border-radius: 15px;
-
-  padding: 2rem;
-  box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.2);
+  padding: min(50%, 2rem);
   text-align: center;
 }
 .card > .profile-img {
   display: block;
-  margin-bottom: 1.5rem;
-  width: 96px;
-  height: 96px;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
-  margin-bottom: 1.5rem;
 }
 .profile-info > .name {
   font-size: 1.4rem;
@@ -55,11 +51,14 @@ body {
   font-size: 0.835rem;
   font-weight: 600;
   color: var(--Green);
-  margin-bottom: 1.5rem;
 }
 .passion {
   font-size: 0.875rem;
   font-weight: 400;
+}
+.profile-img,
+.address,
+.passion {
   margin-bottom: 1.5rem;
 }
 .social-link {
@@ -76,7 +75,6 @@ body {
   font-weight: 600;
   padding: 0.75rem 1rem;
   border-radius: 8px;
-  transition: background-color 0.4s ease, color 0.4s ease;
 }
 .social-btn:hover {
   background-color: var(--Green);
