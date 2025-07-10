@@ -26,7 +26,7 @@ body {
   color: var(--White);
 }
 .card {
-  max-width: 20rem;
+  max-width: 22rem;
   width: 100%;
   display: flex;
   flex-direction: column;
